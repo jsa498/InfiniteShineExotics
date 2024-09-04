@@ -33,8 +33,9 @@
 }
 
 #navbar__logo {
-  background-color: #ee00ff;
-  background-image: linear-gradient(to top, #5f0074 0%, #a90aff 100%);
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -44,7 +45,7 @@
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .navbar__menu {
