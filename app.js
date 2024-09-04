@@ -98,7 +98,7 @@ btnNav.onclick = function() {
 btnAbout.onclick = function() {
   modal.style.display = "block";
 }
-
+ 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
@@ -120,4 +120,3 @@ document.getElementById("callNow").onclick = function() {
 document.getElementById("messageNow").onclick = function() {
   window.location.href = "sms:+16047258010";
 }
-
